@@ -33,7 +33,7 @@ public class Timer {
                 if (seconds==0) {
                     str = mSecs+" milliseconds.";
                 }else{
-                    str = seconds+"."+mSecs+" seconds.";
+                    str = seconds+" seconds and "+mSecs+" millis.";
                 }
             }else{
                 str = minutes+" minutes and "+seconds+"."+mSecs+" seconds.";
